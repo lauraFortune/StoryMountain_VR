@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>02-EXPERIENCE</title>
+        <link rel="stylesheet" href="css/background_images.css" type="text/css">
+        <link rel="stylesheet" href="css/nav.css" type="text/css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/image_gallery.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway+Dots|Raleway:200|Source+Sans+Pro:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    </head>
+
+
+    <body>
+
+		<div id="HorizontalGallery">
+
+			<div id="Gallery1" class="Gallery">
+
+				<div class="experience_bgImage">
+					<div class="nav">
+						<a href="index.html"><img id="logo" src="images/logo_white.png" alt=""></a>
+						<div class="navlinks" id="navlinks">
+							<a href="javascript:void(0)" id="close" class="close" onclick="closeNav()">&times;</a>
+							<a href="01-about.html" id="about"><span>01</span>ABOUT</a>
+							<a href="02-experience.html" id="experience"><span>02</span>EXPERIENCE</a>
+							<a href="03-corporate.html" id="corporate"><span>03</span>CORPORATE</a>
+							<a href="04-hardware.html" id="hardware"><span>04</span>HARDWARE</a>
+							<a href="05-connect.html" id="connect"><span>05</span>CONNECT</a>
+						</div>
+						<span id="open" class="open" onclick="openNav()">&#9776;</span>
+					</div><!--end nav -->
+					<section id="intro_gridLayout">
+						<div class="hl"></div>
+						<div class="title_font"><span>02</span>EXPERIENCE</div>
+						<p class="subtitle_font">Follow Your Bliss<br>Scroll right to explore our virtual playgounds</p>
+					<!--<b class="greenbox2 greenbox2_experience"></b>-->
+					</section><!--end intro_gridLayout-->
+				</div>
+
+			</div>
+
+			<div id="Gallery2" class="Gallery">
+
+				<div class="experience_bgImage">
+                    <section class="demo_gridLayout">
+						<div class="hl"></div>
+						<div class="demo_title">MARS</div>
+						<div class="demo_border">
+							<img src = "images/experiences/mars2.jpg" id="thumbnail_1" class="gallery_Thumbnail" onclick="Image_Clicked(0);">
+							<img src = "images/experiences/mars1.jpg" id="thumbnail_2" class="gallery_Thumbnail" onclick="Image_Clicked(1);">
+							<img src = "images/experiences/mars3.jpg" id="thumbnail_3" class="gallery_Thumbnail" onclick="Image_Clicked(2);">
+						</div>
+                    </section><!--end demo_gridLayout-->
+				</div><!--end experience_bgImage-->
+
+            </div>
+
+			<div id="Gallery3" class="Gallery">
+                <div class="experience_bgImage">
+					<section class="demo_gridLayout">
+						<div class="hl"></div>
+						<div class="demo_title">CYBER PUNK</div>
+						<div class="demo_border">
+							<img src = "images/experiences/cyber1.png" id="thumbnail_4" class="gallery_Thumbnail" onclick="Image_Clicked(3);">
+							<img src = "images/experiences/cyber2.png" id="thumbnail_5" class="gallery_Thumbnail" onclick="Image_Clicked(4);">
+							<img src = "images/experiences/cyber3.png" id="thumbnail_6" class="gallery_Thumbnail" onclick="Image_Clicked(5);">
+						</div>
+					</section><!--end demo_gridLayout-->
+				</div><!--end experience_bgImage-->
+			</div>
+
+			<div id="Gallery4" class="Gallery">
+                <div class="experience_bgImage">
+					<section class="demo_gridLayout">
+						<div class="hl"></div>
+						<div class="demo_title">DEEP SEA DIVE</div>
+						<div class="demo_border">
+							<img src = "images/experiences/deep1.jpg" id="thumbnail_7" class="gallery_Thumbnail" onclick="Image_Clicked(6);">
+							<img src = "images/experiences/deep3.jpg" id="thumbnail_8" class="gallery_Thumbnail" onclick="Image_Clicked(7);">
+							<img src = "images/experiences/deep2.jpg" id="thumbnail_9" class="gallery_Thumbnail" onclick="Image_Clicked(8);">
+						</div>
+				</div><!--end experience_bgImage-->
+			</div>
+        </div>
+
+
+		<div id = "Pips">
+			<!--<div id ="gallery_previous_button" onclick="PreviousGallery();">
+				<p>&#60;&#60;</p>
+			</div>-->
+			<img src = "images/white_pip.png" id="pip1" class="pip" onclick="PipPressed(1);">
+			<img src = "images/white_pip.png" id="pip2" class="pip" onclick="PipPressed(2);">
+			<img src = "images/white_pip.png" id="pip3" class="pip" onclick="PipPressed(3);">
+			<img src = "images/white_pip.png" id="pip4" class="pip" onclick="PipPressed(4);">
+			<!--<div id ="gallery_next_button" onclick="NextGallery();">
+				<p class = "gallery_button">&#62;&#62;</p>
+			</div>-->
+
+			<div id="focused_holder">
+                <img src = "images/image1.jpg" id="focused_image" onclick="Close();">
+				<div>
+					<p id ="focused_close" onclick="Close();">&#88;</p>
+				</div>
+            </div>
+
+		</div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="javascript/nav.js"></script>
+		<script type="text/javascript" src="javascript/image_gallery.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+<!--end of header -->

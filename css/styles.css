@@ -1,0 +1,683 @@
+/*OFFSET IMAGES- transform: translateX(-50%) translateY(-50%);
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway Dots', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+/*######### BODY ######## */
+body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+color: lightgrey;
+font-family: 'Raleway', 'Source Sans Pro', sans-serif;
+font-weight: lighter;
+line-height: 1.5;
+letter-spacing: 1.5;
+}
+/*######### END BODY ########*/
+/*########## INDEX PAGE ##########*/
+#index_gridLayout{
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 15vw 18vw 7vw 15vw 27vw 15vw;
+  grid-template-rows: auto 20vh 20vh 20vh auto;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+#storyMountain{
+  font-family: 'Raleway Dots', 'Raleway', 'Source Sans Pro', cursive;
+  color: #fff;
+  font-size: 4rem;
+  margin-top:25%;
+  grid-row-start:1;
+  grid-column-start:1;
+  grid-column-end: 1;
+  writing-mode: vertical-rl;
+}
+.index_greenbox {
+  background-color: #4c9da3;
+  grid-row-start:1;
+  grid-row-end: 10;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  opacity: 0.125;
+  height: 180%;
+  z-index: 0;
+}
+.index_greenbox2 {
+  background-color: #4c9da3;
+  grid-row-start:1;
+  grid-row-end: 2;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  opacity: 0.125;
+  height: 140%;
+  z-index: 0;
+}
+#indexlogo{
+grid-column-start: 4;
+grid-row-start:1;
+opacity: .5;
+justify-content: center;
+align-self: center;
+width: 100%;
+margin-left: 40%;
+}
+.content_wrap{/*use to wrap if want to add flex to a section */
+  display: flex;/*applies flex to the container - can change to grid if prefer*/
+  flex-direction: column;/* flex property*/
+  text-align: left;
+  padding: 10% 0;
+}
+.title p{
+  font-family: 'Raleway Dots', 'Raleway', 'Source Sans Pro', cursive;
+  color: #fff;
+  font-weight: lighter;
+  text-align:left;
+  margin:4% 10%;
+  font-size: calc(2rem + .5vw);
+}
+#testimonial{
+  padding-top: 5%;
+  writing-mode: vertical-rl;
+  font-size: 3.7em;
+  padding-left: 30%;
+}
+.testimonials img{
+  margin: 30%;
+  width: 280px;
+  border-radius:1px;
+}
+#index_one .logo_wrap {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 10%;
+}
+/*testimonial media queries*/
+@media screen and (min-width: 576px) {
+    .testimonials {
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-column-gap: 20%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .testimonials {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+/*testimonial media queries*/
+/*index media queries - title screen mobile responsive*/
+@media screen and (max-width: 576px) {
+    #index_gridLayout{
+      display: grid;
+      min-height: 100vh;
+      grid-template-columns: 20vw 18vw 7vw 15vw 27vw 20vw;
+      grid-template-rows: auto 20vh 20vh 20vh auto;
+      box-sizing: border-box;
+      margin-top: 0;
+    }
+    #storyMountain{
+    font-size: 2.5rem;
+    margin-left: 40%;
+    }
+    #indexlogo{
+    grid-column-start: 3;
+    grid-row-start:1;
+    opacity: .5;
+    justify-content: center;
+    align-self: center;
+    width: 400%;
+    margin-left: 40%;
+    }
+    #open{
+        font-size: 200%;
+    }
+}
+/* end index media queries - title screen mobile responsive*/
+/*########## END INDEX PAGE ##########*/
+
+/*########## INTRO SCREENS ##########*/
+#intro_gridLayout{
+  display: grid;
+  min-height: 70vh;
+  display: grid;
+  grid-template-columns: 20% 15vw 12vw 13vw 20vw 10vw 10vw;
+  grid-template-rows: 17vw 28% auto;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+#intro_gridLayout .hl{
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end:5;
+  height: 1px;
+  align-self: end;
+  margin-left: 4%;
+}
+#logo{
+  position: fixed;
+  opacity: .8;
+  width: 7%;
+  margin:3.5% 3.5%;
+  grid-row-end: 1;
+  z-index: 2;
+}
+.title_font{
+  font-family: 'Raleway Dots', 'Raleway', 'Source Sans Pro', cursive;
+  color: #fff;
+  grid-row-start:2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-size: 5rem;
+  text-align: left;
+  margin: 0 50%;
+  letter-spacing: .05em;
+}
+.title_font span{
+    font-size: 7rem;
+    padding: 700%;
+    margin: 650%;
+    color: #b7b7b7;
+}
+.subtitle_font{
+color: lightgrey;
+font-family: 'Raleway', 'Source Sans Pro', sans-serif;*/
+font-weight: lighter;
+font-size: 2rem;
+grid-row-start:3;
+grid-row-end: 4;
+grid-column-start:1;
+grid-column-end:5;
+margin: 1% 18%;
+letter-spacing: .05em;
+}
+.greenbox {
+  background-color: #4c9da3;
+  grid-row-start:1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  opacity: .125;
+  height: 210%;
+  z-index: 1;
+}
+.greenbox2 {
+  background-color: #4c9da3;
+  grid-row-start:2;
+  grid-column-start: 5;
+  opacity: 0.05;
+  height: 200px;
+}
+.long {
+  grid-row-start:1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  opacity: 0.09;
+  height: 650%;
+}
+/*########## END INTRO SCREEN ##########*/
+/*########## INTRO TITLE PAGE QUERIES ##########*/
+@media screen and (max-width: 576px) {
+    #intro_gridLayout{
+      display: grid;
+      min-height: 70vh;
+      display: grid;
+      grid-template-columns: 20% 15vw 12vw 13vw 20vw 10vw 10vw;
+      grid-template-rows: 17vw 28% auto;
+      box-sizing: border-box;
+      margin-top: 0;
+    }
+    .title_font{
+      grid-row-start:2;
+      grid-column-start:1;
+      font-size: 2.5rem;
+      text-align: left;
+      letter-spacing: .05em;
+    }
+
+    .title_font span{
+        font-size: 3.9rem;
+        padding: 700%;
+        margin: 650%;
+        color: #b7b7b7;
+    }
+    .hl{
+        display: none;
+    }
+    .subtitle_font{
+    font-size: 1.5rem;
+    grid-row-start:3;
+    grid-row-end: 4;
+    grid-column-start:1;
+    grid-column-end:7;
+    margin: 1% 18%;
+    letter-spacing: .05em;
+
+    }
+    #logo{
+      position: fixed;
+      opacity: .8;
+      width: 15%;
+      margin:3.5% 3.5%;
+      grid-row-end: 1;
+    }
+
+}
+
+/*########## END INTRO TITLE PAGE MEDIA QUERIES ##########*/
+/*########## *SHARED*LOGO(BLOCK) WRAPS ##########*/
+.logo{
+  text-align: center;
+  padding-bottom: 8%;
+}
+.logo h4 {
+  margin:  0 15px 0; /*fa heading*/
+  font-size: 20px;
+}
+.logo p {
+  line-height: 1.5em;/*1.5 em - don't need to write ems*/
+  width: 75%;
+  margin: 0 auto; /* centers text */
+}
+@media screen and (min-width: 576px) {
+  .logo_wrap {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+  }
+  .logo p {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .logo_wrap {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/*########## END LOGO(BLOCK) WRAPS ##########*/
+
+/*########## SHARED CONTENT STYLING ########*/
+.resize{/*.resize*/
+  width: 120%;
+}
+.border{
+  border: 1px solid grey;
+  padding: 5%;
+}
+.center p{
+  align-self: center;
+  margin-left: 7%;
+  font-size: 1.5em;
+}
+img{
+  width: 280px;
+  border-radius:1px;
+}
+.text {
+  margin: 1% 20%;
+  font-size: calc(1rem + .6vw);
+}
+.quote { /*01-ABOUT*/
+  margin: 1% 10%;
+  font-size: calc(1.5rem + .6vw);
+}
+/*########## END SHARED CONTENT STYLING ########*/
+
+/*########### ABOUT_ONE SHARED ##################*/
+#about_one p{
+
+  font-size: calc(1rem + .6vw);
+  width: 100%;
+  text-align: left;
+  padding-bottom: 5%;
+}
+
+#about_one article{
+  margin: 2% 10%;
+}
+
+#about_one h1{
+  font-size: calc(1.5rem + .6vw);
+}
+@media screen and (min-width: 576px) {
+  #about_one .logo_wrap {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 10%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #about_one .logo_wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/*########### END ABOUT_ONE ##################*/
+
+/*######### FONTAWESOME ICONS #########*/
+.fab{
+font-size: 3rem;
+padding: 10% 0;
+color: grey;
+transition: transform 0.5s ease-in, background 0.5s ease, color 0.5s ease;
+}
+.fab:hover {
+  transform: scale(1.5);/*makes fa smaller... if made bigger than one would zoom on fa */
+
+}
+/*######### END FONTAWESOME ICONS #########*/
+
+/*######### HORIZONTAL LINE #########*/
+.hl {
+  margin-top: 10%;
+  width: 30%;
+  border: 1px solid white;
+  transition: width 4s ease, border 4s ease;
+}
+.hl:hover {
+  width: 50%;
+  border: 1px dotted #86CFDE;
+}
+/*######### END HORIZONTAL LINE #########*/
+
+/*####### SCROLL LINE ############*/
+.center{
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+padding: 8%;
+}
+.circle{
+  font-size: calc(2rem + 1vw);
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  padding: calc(.4em + 1vw);
+
+}
+.vl{/*vertical line*/
+  width: 1px;
+  height: 210px;
+  background-color: white;
+  align-self: center;
+}
+/*####### END SCROLL LINE ############*/
+
+/*########### FORM ###########*/
+html{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+form{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding: 2em 4em 6em 2em;
+  width: 100%;
+
+}
+form p{
+    color: lightgrey;
+    font-family: 'Raleway', 'Source Sans Pro', sans-serif;*/
+    font-weight: lighter;
+}
+input.inputText {
+  color: rgb(189, 192, 192);
+  width: 100%;
+  display: block;
+  height: 50px;
+  background: rgba(0,0,0,0.5);
+  outline: none;
+  border: 1px solid rgba(0,0,0,0.5);
+  margin-bottom:5%;
+  padding-left: 5%;
+  border-radius: 5px;
+  font-size: 1rem;
+
+
+}
+input.inputRadio {
+  width: 100%;
+  display: block;
+  height: 20px;
+  background: rgba(0,0,0,0.5);
+  outline: none;
+  border: 1px solid rgba(0,0,0,0.5);
+  margin-bottom:5%;
+  padding-left: 5%;
+  border-radius: 5px;
+  font-size: 1rem;
+
+}
+
+#dropdown {
+  width: 100%;
+  display: block;
+  height: 50px;
+  background: rgba(0,0,0,0.5);
+  outline: none;
+  border: 1px solid rgba(0,0,0,0.5);
+  margin-bottom:5%;
+  padding-left: 5%;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: grey;
+}
+
+button{
+  float: right;
+  margin: 5% 0;
+  width: 30%;
+  height: 50px;
+  color: lightgrey;
+  background-color: transparent; background-color: rgb(100, 194, 201, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+/*########### END FORM ###########*/
+
+/*########## DONE 03 EXPERIENCE #####*/
+.flex{
+    display: flex;
+    align-items: center;
+}
+.demo_gridLayout{
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 30vh 70Vh;
+  box-sizing: border-box;
+  margin-top: 0;
+
+}
+.demo_gridLayout .hl{
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end:2;
+  height: 1px;
+  align-self: end;
+  margin-left: 20%;
+  margin-bottom: 8%;
+  width: 70%;
+}
+.demo_title{
+  grid-row-start:1;
+  grid-column-start:2;
+  font-size: 3.7rem;
+  margin-bottom:0;
+  align-self: end;
+}
+.demo_border{
+  padding: 3%;
+  grid-row-start:2;
+  grid-row-end:4;
+  grid-column-start:2;
+  grid-column-end:9;
+}
+/*###### EXPERIENCE MEDIA QUERIES MOBIEL#####*/
+@media screen and (max-width: 576px) {
+    .experience_bgImage
+    .title_font{
+      grid-row-start:2;
+      grid-column-start:1;
+      font-size: 2rem;
+      text-align: left;
+      letter-spacing: .05em;
+      margin-top: 40%;
+    }
+
+    .experience_bgImage .title_font span{
+        font-size: 2.8rem;
+        padding: 700%;
+        margin: 650%;
+        color: #b7b7b7;
+    }
+}
+/*###### EXPERIENCE MEDIA QUERIES MOBIEL#####*/
+/*########## 02 EXPERIENCE #####*/
+/*######## 03-CORPORATE *#########*/
+.corp_image{
+    width: 200%
+}
+.thumbnail{
+  width: 210px;
+  height: 200px;
+  padding: 6%;
+}
+@media screen and (min-width: 576px) {
+  .logo_thumbnail {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap:2% ;
+  }
+}
+@media screen and (min-width: 992px) {
+  .logo_thumbnail {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 576px) {
+    #hardware_bgImage_1 .title_font{
+      grid-row-start:2;
+      grid-column-start:1;
+      font-size: 2rem;
+      text-align: left;
+      letter-spacing: .05em;
+      margin-top: 40%;
+    }
+
+    #hardware_bgImage_1 .title_font span{
+        font-size: 2.8rem;
+        padding: 700%;
+        margin: 650%;
+        color: #b7b7b7;
+    }
+}
+/*######### CORPORATE MEDIA QUERIES MOBILE #####*/
+@media screen and (max-width: 576px) {
+    #corporate_bgImage_1 .title_font{
+      grid-row-start:2;
+      grid-column-start:1;
+      font-size: 2.2rem;
+      text-align: left;
+      letter-spacing: .05em;
+      margin-top: 40%;
+    }
+
+    #corporate_bgImage_1 .title_font span{
+        font-size: 2.3rem;
+        padding: 700%;
+        margin: 650%;
+        color: #b7b7b7;
+    }
+    form{
+        width: 70%;
+        font-size: 1.2rem;
+    }
+
+}
+/*######### END CORPORATE MEDIA QUERIES MOBILE #####*/
+/*######## END 03-CORPORATE*#########*/
+/*######### 05-CONNECT #########*/
+#connect div{
+  font-size: 2rem;
+  padding-left: 10%;
+}
+#connect p{
+  font-size: 3rem;
+}
+#connect h1{
+    font-size: 1.5rem;
+}
+/*######### CONNECT MEDIA QUERIES MOBILE #####*/
+@media screen and (max-width: 576px) {
+    #connect_bgImage_1 .title_font{
+      grid-row-start:2;
+      grid-column-start:1;
+      font-size: 2.4rem;
+      text-align: left;
+      letter-spacing: .05em;
+      margin-top: 40%;
+    }
+
+    #connect_bgImage_1 .title_font span{
+        font-size: 2.9rem;
+        padding: 700%;
+        margin: 650%;
+        color: #b7b7b7;
+    }
+}
+/*######### END CONNECT MEDIA QUERIES MOBILE #####*/
+/*########### meet the team ############*/
+.logo_team{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left !important;
+  margin: 5%;
+  z-index: 0;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+.logo_team h5{
+  color: #fff;
+  margin: 48px 0 2px 4px;
+  font-size: 1.2rem;
+}
+.logo_team p {
+  color: #fff;
+  margin-left: 0 !important;
+  font-size: 1.2rem;
+  margin-bottom: 70px !important;
+}
+.logo_team img{
+    width: 100%;
+}
+#meet_the_team{
+  padding-bottom: 8%;
+}
+@media screen and (min-width: 576px) {
+  #meet_the_team .logo_wrap {
+    width: 65%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  #meet_the_team .logo_wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/*end meet the team*/
+/*######## END 05-CONNECT *#########*/

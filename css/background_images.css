@@ -1,0 +1,101 @@
+/*######## GRADIENTS WRAPS*#########*/
+#gradient_wrap{
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(4,12,12,0.9) 25%, rgba(4,12,12,0.5) 100%);
+  min-height: 100vh;
+}
+#form_gradient_wrap{
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(4,12,12,0.4) 25%, rgba(4,12,12,0.4) 100%);
+  min-height: 100vh;
+  padding-bottom: 2%;
+}
+/*######## END GRADIENTS WRAPS *#########*/
+#index_bgImage_1 {
+  background: linear-gradient(rgba(0,0,0,.1),    rgba(0,0,0,.1)),/*transparent overlay*/ url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/c7709273750985.5c1807c26f701.jpg);
+  min-height: 200vh;
+  background-attachment: fixed;/*creates paralax effect */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display:flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+.about_bgImage_1 {
+  background: linear-gradient(rgba(0,0,0,.5),    rgba(0,0,0,.1)),url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/fb04cd73750985.5c1807c27045b.jpg);
+  min-height: 200vh;
+  background-attachment: fixed; /*creates paralax effect */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display:flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+.experience_bgImage {
+  background: linear-gradient(rgba(0,0,0,.5),    rgba(0,0,0,.1)),/*transparent overlay*/ url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/fb04cd73750985.5c1807c27045b.jpg);
+  background-attachment: fixed; /*creates paralax effect */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display:flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  overflow-x: auto;
+  width: 100vw;
+  height: 100vh;
+}
+#hardware_bgImage_1 {
+  background: linear-gradient(rgba(0,0,0,.5),    rgba(0,0,0,.1)),/*transparent overlay*/ url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/ec1eda73889271.5c18fcd377edc.jpg);
+  min-height: 200vh;
+  background-attachment: fixed; /*creates paralax effect */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display:flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+#corporate_bgImage_1 {
+  background: linear-gradient(rgba(0,0,0,.5),    rgba(0,0,0,.1)),/*transparent overlay*/ url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/d9d60873889271.5c18fcd377932.jpg);
+  min-height: 200vh;
+  background-attachment: fixed; /*creates paralax effect */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display:flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+#corporate_bgImage_2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/ad764873889271.5c18fcd378493.jpg);
+  background-attachment: fixed; /*creates paralax effect */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display:flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+#connect_bgImage_1 {
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.1)),/*transparent overlay*/ url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/ad764873889271.5c18fcd378493.jpg);
+  min-height: 200vh;
+  background-attachment: fixed; /*creates paralax effect */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display:flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+.shared_bgImage_2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/ee6a2073889271.5c18fcd378a4b.jpg);
+  min-height: 200vh;
+  background-attachment: fixed; /*creates paralax effect */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display:flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}

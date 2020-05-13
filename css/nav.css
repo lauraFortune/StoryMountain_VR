@@ -1,0 +1,96 @@
+/*nav*/
+.nav {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  z-index: 1;
+  font-family: 'Raleway Dots','Raleway Dots', 'Montserrat', Helvetica, Sans-Serif;
+}
+.navlinks {
+  position: fixed;
+  width: 0%;/*hides nav*/
+  overflow-x: hidden;/*hides nav*/
+  height: 100vh;
+  z-index: 1;/*mountain is 1 so is not hidden by blue color logo*/
+  background: linear-gradient(rgba(182,93,93,.3), rgba(117,33,18,.1)),/*transparent overlay*/url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/7947ee73750985.5c1807c26e88e.jpg) ;
+  transition: .3s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-rows: 5% 1fr 1fr 1fr  1fr  1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns:  10% 1fr 1fr 1fr 5%;
+}
+.navlinks a {
+  display: inline-block;
+  letter-spacing: .2em;
+  color: #fff;
+  font-size: calc(1.2rem + 2.2vw);
+  font-weight: bolder;
+  width: 100%;
+  text-decoration: none;
+  transition: background 3s ease, padding-left 1s ease;
+  /*display: block;*/
+}
+.nav a:not(:nth-child(1)):hover { /* not the X or icon */
+  background: rgba(117, 33, 18, 0.5);
+  padding-left: 10%;
+}
+.open {
+  color: white;
+  font-size:3.5rem;
+  position: fixed;
+  display: inline-block;
+  cursor: pointer;
+  transition: width 7s;
+  right: 0;
+  padding: 2%;
+}
+/* placing links on grid*/
+.close {
+  padding-top: .3em;
+  grid-column-start: 5;
+}
+.navlinks span { /* create space between all numbers and links*/
+  margin-right: 10%;
+}
+
+#about {
+  margin-top: 5%;
+  grid-row-start: 4;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  align-self: end;
+}
+#experience {
+  grid-row-start:5;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  align-self: end;
+}
+#corporate {
+  grid-row-start: 6;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  align-self: end;
+}
+#hardware {
+  grid-row-start: 7;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  align-self: end;
+}
+#connect {
+  grid-row-start:8;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  align-self: end;
+}
+#logoNav{
+  opacity: .8;
+  width: 69%;
+  margin-left: 15%;
+  grid-row-start: 1;
+}
+/* end placing links on grid*/
+/*end nav*/

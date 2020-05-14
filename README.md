@@ -20,3 +20,13 @@ Semester 1 - Web design for a fictitious Virtural Reality(VR) company. The websi
 ![hardware_2](https://user-images.githubusercontent.com/48602973/81929360-c9414e00-95de-11ea-8831-5bddc90947b3.png)
 
 
+
+## Acknowledgments
+
+#### Images:
+ - [Behance](https://www.behance.net/)
+
+#### Tutorials:
+  - John Smilga: [Css Grid Tutorial with Website Projects](https://www.udemy.com/css-grid-tutorial-with-real-world-website-projects)
+  - Jonas Schmedtmann: [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
+

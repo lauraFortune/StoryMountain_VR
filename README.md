@@ -1,5 +1,5 @@
 # Web Design Project
-Semester 1 - Web design for a fictitious Virtural Reality(VR) company. The website was designed follwing this theme, drawing inspiration from science fiction and nature to the work of Joseph Campbell ('The Heroe's Journey').
+Semester 1 - Web design for a fictitious Virtural Reality(VR) company. The website was designed follwing this theme, drawing inspiration from science fiction and nature to the work of Joseph Campbell, 'The Heroes Journey'.
 <br><br>
 
 ### Built With

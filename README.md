@@ -6,7 +6,7 @@ Semester 1 - Web design for a fictitious Virtural Reality(VR) company. The websi
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [CSS Flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) for responsiveness
+- [CSS Flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) & [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)for responsiveness
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 

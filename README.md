@@ -1,5 +1,7 @@
 # Web Design Project
-Semester 1 - Web design for a fictitious Virtural Reality(VR) company. Drawing inspiration from science fiction, nature and Joseph Campbell's, "The Hero's Journey".
+[storymountain.000webhostapp.com](http://storymountain.000webhostapp.com/)<br><br>
+
+Semester 1 - Web design for a fictitious Virtural Reality(VR) company. Drawing inspiration from science fiction, nature and Joseph Campbell's "The Hero's Journey".
 <br><br>
 
 ### Built With
